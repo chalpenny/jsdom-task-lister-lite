@@ -1,5 +1,15 @@
 # TaskLister Lite™️
 
+
+To Do:
+*check that DOM has loaded
+*event listener for submit 
+*prevent default routing
+*insert contents of form into array
+*create function to iterate over array and display content below
+
+
+
 Today you'll be creating a simple to do list application that will focus on DOM
 manipulation. Take a look at `index.html` and identify the DOM elements you'll
 need to manipulate before you write any code.

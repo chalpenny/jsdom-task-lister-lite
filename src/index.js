@@ -1,3 +1,17 @@
+let tasks = []
+
+const list = document.getElementById('tasks');
+
+let li;
+
 document.addEventListener("DOMContentLoaded", () => {
-  // your code here
+  document.getElementById('create-task-form').addEventListener('submit', function (event) { 
+    event.preventDefault();
+    let formInput = document.getElementById('new-task-description');
+    tasks.push(formInput.value);
+  
+      li = document.createElement("li");
+      li.innerHTML = formInput.value
+      list.appendChild(li)
+  });
 });
